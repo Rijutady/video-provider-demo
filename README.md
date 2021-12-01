@@ -6,9 +6,9 @@
 
 -- [Usage](#usage)
 
--- [License](#license)
-
 -- [Infra diagram](#diagram)
+
+-- [Deployment](#deployment)
 
 ## Description
 
@@ -47,3 +47,13 @@ When visiting the site, you can create your own account or use a dummy account p
 ## Diagram
 
 ![Infra diagram](assets/infra.PNG)
+
+- Frontend base on react run in 3000 port
+- Backend base on express.js runs in 3001 port
+- Database runs on Mongo Altas, which is maintained by Mongo AWS account.
+
+## Deployment
+
+`ssh -i ~/.ssh/video-provider-wj8664.pem ec2-user@35.83.249.21`
+`cd video-provider-demo && export NODE_OPTIONS=--openssl-legacy-provider`
+`npm run develop`
