@@ -50,6 +50,14 @@ When visiting the site, you can create your own account or use a dummy account p
 
 ## Deployment
 
+- SSH into ec2 instance
+
 `ssh -i ~/.ssh/video-provider-wj8664.pem ec2-user@35.83.249.21`
-`cd video-provider-demo && export NODE_OPTIONS=--openssl-legacy-provider`
+
+- Install packages
+
+`cd video-provider-demo && export NODE_OPTIONS=--openssl-legacy-provider && npm run install`
+
+- Run applications
+
 `npm run develop`
