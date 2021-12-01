@@ -27,11 +27,7 @@ Here are screenshots of the app's primary pages:
 
 The Main Page:
 
-![Main Page Screenshot](assets/prequelmainpage.PNG)
-
-The Individual Video Page:
-
-![Video Page Screenshot](assets/prequelvideopage.PNG)
+![Main Page Screenshot](assets/mainpage.PNG)
 
 Link to the deployment: [ec2 Deployment](http://ec2-35-83-249-21.us-west-2.compute.amazonaws.com:3000)
 
